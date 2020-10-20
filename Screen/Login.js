@@ -61,14 +61,13 @@ const styles = StyleSheet.create({
   },
   mText: {
     marginTop: 80,
-    fontFamily: "tahoma",
+
     color: "#fff",
     fontWeight: "bold",
     fontSize: 30,
   },
   txtPhoto: {
     color: "#fff",
-    fontFamily: "tahoma",
   },
   vPhoto: {
     marginTop: 80,
@@ -102,11 +101,9 @@ const styles = StyleSheet.create({
     marginTop: 80,
   },
   txt1: {
-    fontFamily: "tahoma",
     color: "#fff",
   },
   txt2: {
-    fontFamily: "tahoma",
     color: "#53c29f",
   },
 });

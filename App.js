@@ -6,6 +6,9 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./Screen/Login";
 import Flickr from "./Screen/Flickr";
 import SignIn from "./Screen/SignIn";
+import SaveImage from "./SaveImage";
+import * as MediaLibrary from "expo-media-library";
+import * as Permissions from "expo-permissions";
 
 export default function App() {
   const Stack = createStackNavigator();
@@ -26,6 +29,11 @@ export default function App() {
           name="SignIn"
           component={SignIn}
           options={{ title: "SignIn Page" }}
+        />
+        <Stack.Screen
+          name="Save"
+          component={SaveImage}
+          options={{ title: "Image Detal" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
